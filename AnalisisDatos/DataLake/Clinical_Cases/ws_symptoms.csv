@@ -1,0 +1,141 @@
+,Disease,Symptom
+0,Kawasaki Disease,aneurysms
+1,Kawasaki Disease,aneurysm
+2,Kawasaki Disease,coronary artery aneurysm
+3,Kawasaki Disease,coronary aneurysm
+4,Kawasaki Disease,coronary artery aneurysms
+5,Kawasaki Disease,coronary aneurysms
+6,Kawasaki Disease,myocarditis
+7,Kawasaki Disease,infarction
+8,Kawasaki Disease,fever
+9,Kawasaki Disease,vasculitis
+10,Kawasaki Disease,myocardial infarction
+11,Kawasaki Disease,stenosis
+12,Kawasaki Disease,acute myocardial infarction
+13,Kawasaki Disease,nephrotic syndrome
+14,Kawasaki Disease,coronary artery Disease
+15,Kawasaki Disease,vascular complications
+16,Kawasaki Disease,pyuria
+17,Kawasaki Disease,endothelial dysfunction
+18,Kawasaki Disease,coronary artery thrombosis
+19,Kawasaki Disease,coronary arteritis
+20,Kawasaki Disease,pancreatitis
+21,Kawasaki Disease,myocardial infarction (mi)
+22,Kawasaki Disease,autoimmune hemolytic anemia
+23,Kawasaki Disease,skin lesion
+24,Kawasaki Disease,acrodermatitis
+25,Kawasaki Disease,ischemic heart Disease
+26,Kawasaki Disease,arthritis
+27,Kawasaki Disease,facial palsy
+28,Kawasaki Disease,coronary Disease
+29,Kawasaki Disease,sensorineural hearing loss
+30,Kawasaki Disease,ruptured cerebral aneurysm
+31,Kawasaki Disease,sudden infant death
+32,Bronchiolitis,wheezing
+33,Bronchiolitis,respiratory failure
+34,Bronchiolitis,respiratory distress
+35,Bronchiolitis,acute respiratory failure
+36,Bronchiolitis,airway obstruction
+37,Bronchiolitis,respiratory insufficiency
+38,Bronchiolitis,wheeze
+39,Bronchiolitis,respiratory symptoms
+40,Scarlet Fever,hepatitis
+41,Scarlet Fever,otitis
+42,Scarlet Fever,rash
+43,Scarlet Fever,otitis media
+44,Influeza,pneumonia
+45,Influeza,fever
+46,Influeza,respiratory failure
+47,Influeza,myocarditis
+48,Influeza,respiratory Disease
+49,Influeza,nasal infection
+50,Influeza,respiratory tract infection
+51,Influeza,encephalopathy
+52,Influeza,acute infection
+53,Influeza,bacterial pneumonia
+54,Influeza,bacterial infection
+55,Influeza,acute respiratory failure
+56,Influeza,viral pneumonia
+57,Influeza,superinfection
+58,Influeza,community-acquired pneumonia
+59,Influeza,respiratory infections
+60,Influeza,cystic fibrosis
+61,Influeza,myositis
+62,Influeza,acute encephalopathy
+63,Influeza,acute respiratory Disease
+64,Influeza,bacterial infections
+65,Influeza,respiratory symptoms
+66,Influeza,neurologic symptoms
+67,Influeza,encephalitis
+68,Influeza,petechial rash
+69,Influeza,lower respiratory tract infection
+70,Influeza,cardiomyopathy
+71,Influeza,acute necrotizing encephalopathy
+72,Influeza,hemophagocytic lymphohistiocytosis
+73,Influeza,acute renal failure
+74,Influeza,renal failure
+75,Influeza,optic neuritis
+76,Influeza,myopathy
+77,Influeza,invasive pulmonary aspergillosis
+78,Influeza,compartment syndrome
+79,Influeza,myelitis
+80,Influeza,pulmonary aspergillosis
+81,Influeza,n syndrome
+82,Influeza,hemolytic uremic syndrome
+83,Influeza,immunosuppression
+84,Influeza,viremia
+85,Influeza,glomerulonephritis
+86,Influeza,cerebellitis
+87,Influeza,upper respiratory tract infection
+88,Influeza,meningoencephalitis
+89,Influeza,liver failure
+90,Influeza,necrotising pneumonia
+91,Influeza,disseminated intravascular coagulation
+92,Influeza,atypical pneumonia
+93,Influeza,reye's syndrome
+94,Influeza,benign acute myositis
+95,Influeza,cryptogenic organizing pneumonia
+96,Influeza,respiratory tract Disease
+97,Influeza,optic neuropathy
+98,Influeza,respiratory insufficiency
+99,Influeza,hepatitis
+100,Influeza,brain lesions
+101,Influeza,thrombocytopenia
+102,Influeza,ventricular fibrillation
+103,Influeza,acute myopathy
+104,Influeza,clonal evolution
+105,Influeza,status asthmaticus
+106,Influeza,upper respiratory tract infections
+107,Measles,fever
+108,Measles,rash
+109,Measles,pneumonia
+110,Measles,encephalitis
+111,Measles,immunosuppression
+112,Measles,blindness
+113,Measles,koplik's spots
+114,Measles,lymphopenia
+115,Measles,acute respiratory failure
+116,Measles,bacterial pneumonia
+117,Measles,otitis media
+118,Measles,immune suppression
+119,Measles,optic neuritis
+120,Measles,diarrhea
+121,Pertussis,cough
+122,Pertussis,c syndrome
+123,Pertussis,seizures
+124,Pertussis,pulmonary hypertension
+125,Pertussis,diarrhea
+126,Pertussis,vomits
+127,Scarlet Fever,high_fever
+128,Enterobiasis,insomnia
+129,Enterobiasis,itchy anus
+130,Enterobiasis,fatigue
+131,Mononucleosis,throat pain
+132,Mononucleosis,fatigue
+133,Mononucleosis,headache 
+134,Mononucleosis,lymph nodes 
+135,Pharyngotonsillitis,cough
+136,Pharyngotonsillitis,fever
+137,Pharyngotonsillitis,general discomfort
+138,Pharyngotonsillitis,swollen tonsils
+139,Pharyngotonsillitis,red tonsils
