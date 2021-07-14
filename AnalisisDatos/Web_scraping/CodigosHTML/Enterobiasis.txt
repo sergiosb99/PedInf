@@ -1,0 +1,323 @@
+<head>
+    <title>Pediatric Disease Annotations &amp; Medicines</title>
+    <meta http-equiv="Content-Language" content="English">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="rare,disease,rare disease,Pediatric Disease Annotations &amp; Medicines">
+    <meta name="Robots" content="index">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/hint.css" media="screen">
+    <link rel="SHORTCUT ICON" href="favicon.ico">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+<style>
+
+#pedph{
+  font-weight:bold;
+  color:red;
+}
+#D42,#D43,#D44,#D45,#D46,#D61,#D62
+{
+    border:1px solid gray;
+    display:block;
+    max-height:500px;;
+    max-width:990px;
+    overflow-x:auto;
+    overflow-x:auto;
+}
+
+</style>
+
+
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()">
+
+
+<div class="content">
+
+<div id="top">
+        <div id="icons">
+          <a href="index.php" title="Home page"><img src="images/home.gif" alt="Home" width="13" height="13"></a>
+          <a href="contact.php" title="Contact us"><img src="images/contact.gif" alt="Contact" width="13" height="13"></a>
+          <a href="sitemap.php" title="Sitemap"><img src="images/sitemap.gif" alt="Sitemap" width="13" height="13"></a>       </div>
+        <h1>PedAM</h1>
+        <h2 style="color:#FFF;"><em><b>Pediatric Disease Annotations &amp; Medicines</b></em></h2>
+
+<br>
+<div id="menutest" style="width:1000px;">
+  <ul>
+    <li><a href="index.php">HOME</a></li>
+    <li><a href="query1.php">QUERY</a></li>
+<!--     <li><a href="query1.php">QUERY<span class="caret"></span></a>
+        <ul>
+            <li><a href="query1.php">PRECISE QUERY</a></li>
+            <li><a href="query2.php">FUZZY QUERY</a></li>
+        </ul></li> -->
+    <li><a href="cyto1.php">NETWORK<span class="caret"></span></a>
+        <ul>
+            <!-- <li><a href="cyto1.php">DISEASE</a></li> -->
+            <li><a href="cyto1.php">PHENOTYPE</a></li>
+            <li><a href="cyto3.php">GENE</a></li>
+            <li><a href="cyto4.php">DISEASE PAIR</a></li>
+        </ul></li>
+<!--     <li><a href="download.php">DOWNLOAD<span class="caret"></span></a>
+        <ul>
+            <li><a href="download.php">DISEASE</a></li>
+            <li><a href="download.php">PHENOTYPE</a></li>
+            <li><a href="download.php">GENE</a></li>
+        </ul></li> -->
+    <!-- <li><a href="tree.php">DISEASE CLASSIFICATION</a></li> -->
+
+    <li><a href="case.php">SUBMIT CASE<span class="caret"></span></a>
+        <ul>
+            <li><a href="case.php" target="_blank">SUBMIT CASE</a></li>
+            <!-- <li><a href="http://www.unimd.org/bbs/"  target="_blank" >BBS</a></li> -->
+        </ul></li>
+
+    <!-- <li><a href="case.php">SUBMIT CASE</a></li> -->
+    <li><a href="faq_help.php">HELP&amp;FAQ<span class="caret"></span></a>
+        <ul>
+            <!-- <li><a href="case.php">SUBMIT CASE</a></li> -->
+            <li><a href="faq_help.php">HELP&amp;FAQ</a></li>
+            <li><a href="contact.php">CONTACT US</a></li>
+            <li><a href="guide.php">USER GUIDE</a></li>
+        </ul></li>
+  </ul>
+</div>
+</div>
+<br>
+
+
+
+
+<table width="995" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+    <td colspan="4" height="1" bgcolor="AAAAAA"></td>
+    <td width="5" height="1" bgcolor="FFFFFF"></td>
+  </tr>
+  <tr>
+    <td width="1" bgcolor="AAAAAA"></td>
+
+    <td rowspan="2" colspan="2" style="color:FFBA27;font-size:15px" width="995" height="27" bgcolor="F9F9F9">&nbsp;&nbsp;
+    <span class="STYLE3">
+    pinworms
+    </span></td>
+
+    <td width="1" bgcolor="AAAAAA"></td>
+    <td width="5" height="4" bgcolor="FFFFFF"></td>
+  </tr>
+</tbody></table>
+
+
+
+<table width="995" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+    <td colspan="4" height="1" bgcolor="AAAAAA"></td>
+    <td width="5" height="1" bgcolor="FFFFFF"></td>
+  </tr>
+  <tr>
+    <td width="1" bgcolor="AAAAAA"></td>
+
+    <td rowspan="2" colspan="2" style="color:FFBA27;font-size:15px" width="995" height="27" bgcolor="F9F9F9">&nbsp;&nbsp;
+
+          <input type="button" class="btnshow" onclick="D1clickHandler()" value="General" onmouseover="this.style.backgroundPosition='left -23px'" onmouseout="this.style.backgroundPosition='left top'" style="background-position: left top;">
+          <input type="button" class="btnshow" onclick="D2clickHandler()" value="Phenotype" onmouseover="this.style.backgroundPosition='left -23px'" onmouseout="this.style.backgroundPosition='left top'">
+          <input type="button" class="btnshow" onclick="D3clickHandler()" value="Symptom" onmouseover="this.style.backgroundPosition='left -23px'" onmouseout="this.style.backgroundPosition='left top'" style="background-position: left top;">
+          <input type="button" class="btnshow" onclick="D4clickHandler()" value="Genotype" onmouseover="this.style.backgroundPosition='left -23px'" onmouseout="this.style.backgroundPosition='left top'">
+          <input type="button" class="btnshow" onclick="D5clickHandler()" value="MP" onmouseover="this.style.backgroundPosition='left -23px'" onmouseout="this.style.backgroundPosition='left top'">
+          <input type="button" class="btnshow" onclick="D6clickHandler()" value="Drug" onmouseover="this.style.backgroundPosition='left -23px'" onmouseout="this.style.backgroundPosition='left top'">
+
+    </td>
+
+    <td width="1" bgcolor="AAAAAA"></td>
+    <td width="5" height="4" bgcolor="FFFFFF"></td>
+  </tr>
+</tbody></table>
+
+
+
+<!-- <div id="general"> -->
+
+﻿<div id="D1" style="display:inline;"><table id="metadata" style="border:1px solid gray;width:990px;"><tbody><tr>
+<th width="20%">Disease ID</th>
+<td>774</td>
+</tr><tr>
+ <th width="20%">Disease</th>
+ <td>enterobiasis</td>
+ </tr><tr><th width="20%">Definition</th><td><div id="tdheight">Infection with nematodes of the genus ENTEROBIUS; E. vermicularis, the pinworm of man, causes a crawling sensation and pruritus. This condition results in scratching the area, occasionally causing scarification.<br></div></td></tr><tr><th width="20%">Synonym</th><td><div id="tdheight">enterobiases<br>enterobiasis (disorder)<br>enterobiasis - threadworm<br>enterobiasis [disease/finding]<br>enterobiosis<br>enterobius vermicularis infect<br>enterobius vermicularis infection<br>enterobius vermicularis infections<br>infect enterobius vermicularis<br>infect oxyuris vermicularis<br>infection by enterobius vermicularis<br>infection by enterobius vermicularis (disorder)<br>infection by enterobius vermicularis (disorder) [ambiguous]<br>infection caused by enterobius vermicularis<br>infection caused by enterobius vermicularis (disorder)<br>infection, enterobius vermicularis<br>infection, oxyuris vermicularis<br>infection, pinworm<br>infection, seatworm<br>infections, enterobius vermicularis<br>infections, oxyuris vermicularis<br>oxyuris vermicularis infect<br>oxyuris vermicularis infection<br>oxyuris vermicularis infection (disorder)<br>oxyuris vermicularis infections<br>pinworm<br>pinworm disease<br>pinworm infection<br>pinworms<br>seatworm infection<br>threadworm<br>threadworm infection<br>threadworms - enterobiasis<br></div></td></tr><tr><th width="20%">DOID</th><td><div id="tdheight"><a href="http://disease-ontology.org" target="_blank">DOID:7457</a><br></div></td></tr><tr><th width="20%">ICD10</th><td><div id="tdheight"><a href="http://apps.who.int/classifications/icd10/browse/2016/en#/B80" target="_blank">ICD10CM:B80</a><br></div></td></tr><tr><th width="20%">UMLS</th><td><div id="tdheight">C0086227<br></div></td></tr><tr><th width="20%">MeSH</th><td><div id="tdheight"><a href="https://meshb.nlm.nih.gov/#/fieldSearch?searchInField=termDescriptor&amp;sort=&amp;size=20&amp;searchType=exactMatch&amp;searchMethod=FullWord&amp;q=enterobiasis" target="_blank">D017229</a><br></div></td></tr><tr><th width="20%">SNOMED-CT</th><td><div id="tdheight"><a href="https://www.nlm.nih.gov/research/umls/Snomed/snomed_browsers.html" target="_blank">SNOMEDCT_US_2016_09_01:360419005;SNOMEDCT_US_2016_09_01:266162007</a><br></div></td></tr><tr><th width="20%">Comorbidity</th><td><div id="labelheight"><span class="STYLE16">UMLS&nbsp;|&nbsp;Disease&nbsp;|&nbsp;Sentences' Count</span><span class="STYLE17">(Total Sentences:2)</span></div><div id="tdheight"><a href="https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?query=acute appendicitis" target="_blank">C0085693</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="Show5.php?td=enterobiasis&amp;tp=acute appendicitis&amp;tn=C0085693" target="_blank">acute appendicitis</a>&nbsp;&nbsp;|&nbsp;&nbsp;1<br><a href="https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?query=appendicitis" target="_blank">C0003615</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="Show5.php?td=enterobiasis&amp;tp=appendicitis&amp;tn=C0003615" target="_blank">appendicitis</a>&nbsp;&nbsp;|&nbsp;&nbsp;1<br></div></td></tr><tr><th width="20%">Curated Gene</th><td>(Waiting for update.)</td></tr><tr><th width="20%">Inferring Gene</th><td>(Waiting for update.)</td></tr><tr><th width="20%">Text Mined Gene</th><td><div id="labelheight"><span class="STYLE16">Entrez_id&nbsp;|&nbsp;Symbol&nbsp;|&nbsp;Score&nbsp;|&nbsp;Resource</span><span class="STYLE17">(Total Genes:17)</span></div><div id="tdheight"><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3565" target="_blank">3565</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=3565" target="_blank">IL4</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000231449&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3567" target="_blank">3567</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=3567" target="_blank">IL5</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000231454&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=6556" target="_blank">6556</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=6556" target="_blank">SLC11A1</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000233202&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=968" target="_blank">968</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=968" target="_blank">CD68</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000250092&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=27112" target="_blank">27112</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=27112" target="_blank">FAM155B</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000252338&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=83854" target="_blank">83854</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=83854" target="_blank">ANGPTL6</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000253109&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3578" target="_blank">3578</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=3578" target="_blank">IL9</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000274520&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=115825" target="_blank">115825</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=115825" target="_blank">WDFY2</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000298125&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3596" target="_blank">3596</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=3596" target="_blank">IL13</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000304915&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=4094" target="_blank">4094</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=4094" target="_blank">MAF</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000327048&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=10732" target="_blank">10732</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=10732" target="_blank">TCFL5</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000334294&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3605" target="_blank">3605</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=3605" target="_blank">IL17A</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000344192&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3516" target="_blank">3516</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=3516" target="_blank">RBPJ</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000345206&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=51592" target="_blank">51592</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=51592" target="_blank">TRIM33</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000351250&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=9332" target="_blank">9332</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=9332" target="_blank">CD163</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000352071&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=90550" target="_blank">90550</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=90550" target="_blank">MCU</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000362144&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br><a href="https://www.ncbi.nlm.nih.gov/gene/?term=7099" target="_blank">7099</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.ncbi.nlm.nih.gov/gene/?term=7099" target="_blank">TLR4</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://diseases.jensenlab.org/Entity?documents=10&amp;type1=9606&amp;id1=ENSP00000363089&amp;type2=-26&amp;id2=DOID:7457" target="_blank">DISEASES</a><br></div></td></tr><tr><th width="20%">Locus</th><td>(Waiting for update.)</td></tr></tbody></table></div><div id="D2" style="display: none;"><table id="metadata" style="border:1px solid gray;width:990px;"><tbody><tr>
+<th width="20%">Disease ID</th>
+<td>774</td>
+</tr><tr>
+<th width="20%">Disease</th>
+<td>enterobiasis</td>
+</tr><tr><th width="20%">Integrated Phenotype</th><td>(Waiting for update.)</td></tr><tr><th width="20%">Text Mined Phenotype</th><td>(Waiting for update.)</td></tr></tbody></table></div><div id="D3" style="display: none;"><table id="metadata" style="border:1px solid gray;width:990px;"><tbody><tr>
+<th width="20%">Disease ID</th>
+<td>774</td>
+</tr><tr>
+<th width="20%">Disease</th>
+<td>enterobiasis</td>
+</tr><tr><th width="20%">Manually Symptom</th><td><div id="labelheight"><span class="STYLE16">UMLS &nbsp;|&nbsp;Name</span><span class="STYLE17">(Total Manually Symptoms:3)</span></div><div id="tdheight"><a href="https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?query=infection" target="_blank">C2364133</a>&nbsp;&nbsp;|&nbsp;&nbsp;infection<br><a href="https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?query=chronic urticaria" target="_blank">C0263338</a>&nbsp;&nbsp;|&nbsp;&nbsp;chronic urticaria<br><a href="https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?query=vulvovaginitis" target="_blank">C0042998</a>&nbsp;&nbsp;|&nbsp;&nbsp;vulvovaginitis<br></div></td></tr><tr><th width="20%">Text Mined Symptom</th><td><div id="labelheight"><span class="STYLE16">UMLS&nbsp;|&nbsp;Name&nbsp;|&nbsp;Sentences' Count</span><span class="STYLE17">(Total Symptoms:1)</span></div><div id="tdheight"><a href="https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?query=infection" target="_blank">C0009450</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="Show4.php?td=enterobiasis&amp;tp=infection&amp;tn=C0009450" target="_blank">infection</a>&nbsp;&nbsp;|&nbsp;&nbsp;2<br></div></td></tr></tbody></table></div><div id="D4" style="display: none;"><table id="metadata" style="border:1px solid gray;width:990px;"><tbody><tr><th colspan="1" align="center"><div id="labelheight" style="width:100%;"><span class="STYLE16" style="text-align: center;">Manually Genotype</span><span class="STYLE17">(Total Text Mining Genotypes:0)</span></div></th></tr><tr><td width="100%" align="center">(Waiting for update.)</td></tr></tbody></table></div><div id="D43" style="display: none;"><table id="metadata" style="border:0px solid gray;width:1980px;"><tbody><tr><th colspan="2" align="center"><div id="labelheight" style="width:49%;"><span class="STYLE16" style="text-align: center;">All Snps</span><span class="STYLE17">(Total Genotypes:0)</span></div></th></tr><tr><td width="49%" align="center">(Waiting for update.)</td><td align="center"></td></tr></tbody></table></div><div id="D44" style="display: none;"><table id="metadata" style="border:0px solid gray;width:4980px;"><tbody><tr><th colspan="2" align="center"><div id="labelheight" style="width:19.5%;"><span class="STYLE16" style="text-align: center;">GWASdb Annotation</span><span class="STYLE17">(Total Genotypes:0)</span></div></th></tr><tr><td width="19.5%" align="center">(Waiting for update.)</td><td align="center"></td></tr></tbody></table></div><div id="D45" style="display: none;"><table id="metadata" style="border:0px solid gray;width:980px;"><tbody><tr><th colspan="2" align="center"><div id="labelheight" style="width:100%;"><span class="STYLE16" style="text-align: center;">GWASdb Snp Trait</span><span class="STYLE17">(Total Genotypes:0)</span></div></th></tr><tr><td width="100%" align="center">(Waiting for update.)</td><td align="center"></td></tr></tbody></table></div><div id="D5" style="display: none;"><table id="metadata" style="border:1px solid gray;width:990px;"><tbody><tr><th colspan="1" align="center"><div id="labelheight" style="width:100%;"><span class="STYLE16" style="text-align: center;">Mapped by lexical matching</span><span class="STYLE17">(Total Items:0)</span></div></th></tr><tr><td width="100%" align="center">(Waiting for update.)</td></tr></tbody></table><table id="metadata" style="border:1px solid gray;width:990px;"><tbody><tr><th colspan="1" align="center"><div id="labelheight" style="width:100%;"><span class="STYLE16" style="text-align: center;">Mapped by homologous gene</span><span class="STYLE17">(Total Items:0)</span></div></th></tr><tr><td width="100%" align="center">(Waiting for update.)</td></tr></tbody></table></div><div id="D6" style="display: none; border: 0px solid gray;"><table id="metadata" style="border:1px solid gray;width:990px;"><tbody><tr><th colspan="10" align="center"><div id="labelheight" style="width:100%;"><span class="STYLE16" style="text-align: center;">Chemical</span><span class="STYLE17">(Total Drugs:1)</span></div></th></tr><tr>
+    <th width="10%">CUI</th>
+    <th width="10%">ChemicalName</th>
+    <th width="10%">ChemicalID</th>
+    <th width="10%">CasRN</th>
+    <th width="10%">DiseaseName</th>
+    <th width="10%">DiseaseID</th>
+    <th width="10%">DirectEvidence</th>
+    <th width="10%">PubMedIDs</th>
+    </tr><tr><td style="text-align: center;">C0086227</td><td style="text-align: center;">ivermectin</td><td style="text-align: center;">D007559</td><td style="text-align: center;">70288-86-7</td><td style="text-align: center;">enterobiasis</td><td style="text-align: center;">MESH:D017229</td><td style="text-align: center;">therapeutic</td><td style="text-align: center;">20307935</td></tr></tbody></table></div><div id="D61" style="display: none; border: 1px solid gray;"><table id="metadata" style="border:0px solid gray;width:990px;"><tbody><tr><th colspan="2" align="center"><div id="labelheight" style="width:100%;"><span class="STYLE16" style="text-align: center;">FDA approved drug and dosage information</span><span class="STYLE17">(Total Drugs:0)</span></div></th></tr><tr><td width="100%" align="center">(Waiting for update.)</td><td align="center"></td></tr></tbody></table></div><div id="D62" style="display: none; border: 1px solid gray;"><table id="metadata" style="border:0px solid gray;width:3000px;"><tbody><tr><th colspan="2" align="center"><div id="labelheight" style="width:32%;"><span class="STYLE16" style="text-align: center;">FDA labeling changes</span><span class="STYLE17">(Total Drugs:0)</span></div></th></tr><tr><td width="32%" align="center">(Waiting for update.)</td><td align="center"></td></tr></tbody></table></div>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11510229;
+var sc_invisible=1;
+var sc_security="0a38a6e0";
+var sc_https=1;
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script><script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11510229/0/0a38a6e0/1/" alt="Web
+Analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</div>
+
+
+
+
+
+<script type="text/javascript">
+
+        jQuery.noConflict();
+        jQuery("#D1").show();
+        jQuery("#D2").hide();
+        jQuery("#D3").hide();
+        jQuery("#D4").hide();
+        jQuery("#D42").hide();
+        jQuery("#D43").hide();
+        jQuery("#D44").hide();
+        jQuery("#D45").hide();
+        jQuery("#D5").hide();
+        jQuery("#D6").hide();
+        jQuery("#D61").hide();
+        jQuery("#D62").hide();
+
+    function D1clickHandler()
+    {
+        jQuery.noConflict();
+        jQuery("#D1").show();
+        jQuery("#D2").hide();
+        jQuery("#D3").hide();
+        jQuery("#D4").hide();
+        jQuery("#D42").hide();
+        jQuery("#D43").hide();
+        jQuery("#D44").hide();
+        jQuery("#D45").hide();
+        jQuery("#D5").hide();
+        jQuery("#D6").hide();
+        jQuery("#D61").hide();
+        jQuery("#D62").hide();
+    }
+    function D2clickHandler()
+    {
+        jQuery.noConflict();
+        jQuery("#D2").show();
+        jQuery("#D1").hide();
+        jQuery("#D3").hide();
+        jQuery("#D4").hide();
+        jQuery("#D42").hide();
+        jQuery("#D43").hide();
+        jQuery("#D44").hide();
+        jQuery("#D45").hide();
+        jQuery("#D5").hide();
+        jQuery("#D6").hide();
+        jQuery("#D61").hide();
+        jQuery("#D62").hide();
+    }
+    function D3clickHandler()
+    {
+        jQuery.noConflict();
+        jQuery("#D3").show();
+        jQuery("#D2").hide();
+        jQuery("#D1").hide();
+        jQuery("#D4").hide();
+        jQuery("#D42").hide();
+        jQuery("#D43").hide();
+        jQuery("#D44").hide();
+        jQuery("#D45").hide();
+        jQuery("#D5").hide();
+        jQuery("#D6").hide();
+        jQuery("#D61").hide();
+        jQuery("#D62").hide();
+    }
+    function D4clickHandler()
+    {
+        jQuery.noConflict();
+        jQuery("#D4").show();
+        jQuery("#D42").show();
+        jQuery("#D43").show();
+        jQuery("#D44").show();
+        jQuery("#D45").show();
+        jQuery("#D2").hide();
+        jQuery("#D3").hide();
+        jQuery("#D1").hide();
+        jQuery("#D5").hide();
+        jQuery("#D6").hide();
+        jQuery("#D61").hide();
+        jQuery("#D62").hide();
+    }
+    function D5clickHandler()
+    {
+        jQuery.noConflict();
+        jQuery("#D5").show();
+        jQuery("#D2").hide();
+        jQuery("#D3").hide();
+        jQuery("#D4").hide();
+        jQuery("#D42").hide();
+        jQuery("#D43").hide();
+        jQuery("#D44").hide();
+        jQuery("#D45").hide();
+        jQuery("#D1").hide();
+        jQuery("#D6").hide();
+        jQuery("#D61").hide();
+        jQuery("#D62").hide();
+    }
+    function D6clickHandler()
+    {
+        jQuery.noConflict();
+        jQuery("#D6").show();
+        jQuery("#D61").show();
+        jQuery("#D62").show();
+        jQuery("#D2").hide();
+        jQuery("#D3").hide();
+        jQuery("#D4").hide();
+        jQuery("#D42").hide();
+        jQuery("#D43").hide();
+        jQuery("#D44").hide();
+        jQuery("#D45").hide();
+        jQuery("#D5").hide();
+        jQuery("#D1").hide();
+    }
+
+</script>
+</body>

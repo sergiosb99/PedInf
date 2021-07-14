@@ -1,0 +1,14 @@
+En esta carpeta se encuentra el material usado para llevar
+a cabo el proceso de web scraping, con el objetivo de extraer
+datos sobre enfermedades infecciosas.
+
+ARCHIVOS Y CARPETAS:
+CodigosHTML -----> Esta carpeta contiene los códigos HTML de 
+	 	   las páginas web sobre las que se ha realizado
+		   el proceso de web scraping.
+WebScraping.py --> Archivo python que contiene el algoritmo 
+		   desarrollado.
+dataset.csv -----> Archivo CSV que contiene el resultado 
+		   del proceso de web scraping. Este archivo
+		   se encuentra también en el data lake, bajo	
+	           bajo en nombre ws_symptoms.csv.

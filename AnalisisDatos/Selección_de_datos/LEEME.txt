@@ -1,0 +1,9 @@
+En esta carpeta se encuentra el material usado para llevar
+a cabo la fase de selección de datos del proceso KDD.
+
+CARPETAS:
+Cuadernos ------------> Esta carpeta contiene los cuadernos en formato 
+			.ipynb en el cual se muestra el código desarrollado
+			para llevar a cabo la selección de datos.
+Datos_seleccionados --> En esta carpeta se encuentran las dos tablas de datos 
+			resultantes del proceso de selección de datos.
