@@ -1,0 +1,10 @@
+En esta carpeta se encuentra el sistema experto desarrollado 
+para el desarrollo de enfermedades infecciosas pediátricas.
+
+ARCHIVOS:
+BaseConocimiento.clp --> Contiene el código desarrollado para poner en marcha
+			 el sistema experto, contiene las reglas lógicas y la
+			 definición de los deftemplate correspondientes.
+					  
+BaseHechos.clp --------> Contiene un conjunto de hechos que sirven como 
+			 caso de prueba del sistema experto.
