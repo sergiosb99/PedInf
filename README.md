@@ -1,10 +1,13 @@
-# PedInf: Sprint 1
-En el primer sprint del proyecto, se lleva a cabo el desarrollo de un sistema experto capaz de diagnosticar enfermedades infecciosas pediátricas. Para ello se hará uso de la metodología IDEAL, que muestra la secuencia de pasos a llevar a cabo para construir un sistema experto haciendo uso de la ingeniería del conocimiento. A lo largo de esta metodología se trabajará en en las siguientes etapas:
+# PedInf: Sprint 2
+En el segundo sprint del proyecto, se lleva a cabo el desarrollo del análisis de datos partiendo del data lake definido en la etapa anterior. Para ello se hace uso del Proceso KDD, que muestra la secuencia de pasos a llevar a cabo para conseguir extraer conocimiento a partir de conjuntos de datos. Esta metodología presenta las siguientes etapas:
 
-* Propuesta del sistema
-* Estudio de viabilidad 
-* Adquisición del conocimiento
-* Conceptualización
-* Representación del conocimiento
+* Selección de datos
+* Preprocesado de datos
+* Reducción y proyección de datos
+* Minería de datos
+* Interpretación del conocimiento descubierto.
+* Uso de dicho conocimiento.
 
-A su vez, se iniciará el proceso de análisis de datos, definiendo el data lake del cual dicho proceso partirá. Para ello se consultará al experto para conocer su opinión sobre los distintos conjuntos de datos que serán añadidos a dicho data lake, estudiando sus posibles usos, con el objetivo de extraer conocimiento de los mismos. Dicho data lake enfocará sus datos a estudiar casos clínicos de enfermedades infecciosas pediátricas, con el objetivo de conseguir extraer el conocimiento necesario para diagnosticar enfermedades de esta clase. También se enfocará en estudiar cuales son las principales causas que favoren la expansión de estas enfermedades en el planeta.
+Siguiendo estas fases se consigue el conocimiento requerido para cada una de las dos vertientes propuestas en el análisis de datos. Por un lado, se hace uso de una serie de conjuntos de datos sobre indicadores sanitarios, creadas por la OMS, para estudiar cuales son las principales causas de que las enfermedades infecciosas se transmitan de manera tan veloz entre los niños en el planeta. Por el otro lado, de la base de datos clínica, se extraerá el conocimiento para poder diagnósticar estas enfermedades a partir de sus síntomas.
+
+Por último, tras conseguir este conocimiento, se amplia la base de conocimiento del sistema experto, embebiendo en ella reglas lógicas que representen el conocimiento recien extraído del análisis de datos para diagnósticar más enfermedades infecciosas.
