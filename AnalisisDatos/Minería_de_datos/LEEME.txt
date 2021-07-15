@@ -1,0 +1,11 @@
+En esta carpeta se encuentra el material usado para llevar
+a cabo la fase de minería de datos del proceso KDD.
+
+ARCHIVOS:
+Minería_de_Datos_Casos_Clínicos.ipynb --> Contiene el código desarrollado para las tareas
+					  de minería de datos en la vertiente del diagnóstico
+					  de enfermedades infecciosas pediátricas.
+					  
+Minería_de_Datos_Datos_OMS.ipynb -------> Contiene el código desarrollado para las tareas
+					  de minería de datos en la vertiente de conocer
+					  las causas de la expansión de estas enfermedades.
