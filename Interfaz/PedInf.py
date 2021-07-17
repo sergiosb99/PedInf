@@ -75,7 +75,7 @@ class pedinf(QMainWindow):
             template_2 = env.find_template('sintoma')
 
             # Añadir el primer hecho, referente a los datos del paciente.
-            fact1 = template_1.assert_fact(nombre = self.le_nombre.text(), edad = int(self.cbx_edad.currentText()), patologia = patologia_cb)
+            template_1.assert_fact(nombre = self.le_nombre.text(), edad = int(self.cbx_edad.currentText()), patologia = patologia_cb)
 
             ui_path = os.path.dirname(os.path.abspath(__file__)) # Conseguimos el directorio actual de este archivo .py  
             env.load(ui_path + '\\BaseConocimientoClipspy.clp') ## Cargando reglas.
@@ -278,8 +278,7 @@ class pedinf(QMainWindow):
         if self.cb_diabetes.isChecked() == True: patologia = "Diabetes"
         if self.cb_alergia.isChecked() == True: patologia = "Alergia a la lactosa"
 
-        ui_path = os.path.dirname(os.path.abspath(__file__)) # Conseguimos el directorio actual de este archivo .py  
-        f = open (ui_path + '\\diagnostico.txt','w') ## Creamos un fichero para escribir el diagnóstico.
+        f = open ('diagnostico.txt','w') ## Creamos un fichero para escribir el diagnóstico.
         f.write('--- DATOS PACIENTE ---\nNombre: ' + self.le_nombre.text() + '.\nEdad: ' + self.cbx_edad.currentText() + ' años.\nPatología: ' + patologia + '.\n\n--- DIAGNÓSTICO ---\n')
         f.close()
 
@@ -293,7 +292,7 @@ class pedinf_ayuda(QDialog):
         ui_path = os.path.dirname(os.path.abspath(__file__)) # Conseguimos el directorio actual de este archivo .py        
         self.setWindowFlags(QtCore.Qt.WindowMinimizeButtonHint | QtCore.Qt.WindowCloseButtonHint) 
         uic.loadUi(ui_path + "\\Presentacion\\pedinf_help.ui", self)  # Como el archivo .ui está en el mismo directorio, podemos acceder a él así.
-        self.setFixedSize(485,855)
+        self.setFixedSize(485,925)
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

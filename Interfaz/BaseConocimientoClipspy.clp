@@ -8,7 +8,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(varicela))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Varicela." crlf
 			"La varicela es una infeccion causada por el virus zoster." crlf
 			"Causa una erupcion en la piel con picazon y ampollas." crlf crlf)
@@ -24,7 +24,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(varicela))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Varicela." crlf
 			"La varicela es una infeccion causada por el virus zoster." crlf
 			"Causa una erupcion en la piel con picazon y ampollas." crlf crlf)
@@ -39,7 +39,7 @@
 	(test(< ?edad 5))
 =>
 	(assert(sarampion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Sarampion." crlf
 			"El sarampion es una enfermedad infecciosa causada por un virus del genero Morbillivirus." crlf
 			"Se disemina facilmente de persona a persona y causa una erupcion en la piel de color roja." crlf crlf)
@@ -55,7 +55,7 @@
 	(test(< ?edad 5))
 =>
 	(assert(sarampion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Sarampion." crlf
 			"El sarampion es una enfermedad infecciosa causada por un virus del genero Morbillivirus." crlf
 			"Se disemina facilmente de persona a persona y causa una erupcion en la piel de color roja." crlf crlf)
@@ -71,7 +71,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(bronquiolitis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Bronquiolitis." crlf
 			"La bronquiolitis es una infeccion pulmonar comun en niños pequeños y bebes." crlf
 			"Causa inflamacion y congestion en los bronquiolos del pulmon." crlf crlf)
@@ -87,7 +87,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(bronquiolitis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Bronquiolitis." crlf
 			"La bronquiolitis es una infeccion pulmonar comun en niños pequeños y bebes." crlf
 			"Causa inflamacion y congestion en los bronquiolos del pulmon." crlf crlf)
@@ -103,7 +103,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(faringoamigdalitis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Faringoamidgalitis." crlf
 			"La faringoamigdalitis es la infeccion aguda de la faringe o las amigdalas palatinas." crlf
 			"Puede causar complicaciones que incluyen la celulitis de la amigdala o un absceso amigdalino." crlf crlf)
@@ -119,7 +119,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(faringoamigdalitis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Faringoamidgalitis." crlf
 			"La faringoamigdalitis es la infeccion aguda de la faringe o las amigdalas palatinas." crlf
 			"Puede causar complicaciones que incluyen la celulitis de la amigdala o un absceso amigdalino." crlf crlf)
@@ -135,7 +135,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(mononucleosis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Mononucleosis." crlf
 			"La mononucleosis infecciosa es una infeccion causada, por lo general, por el virus de Epstein-Barr." crlf
 			"El virus se disemina a través de la saliva y es por ello que a veces se la llama enfermedad del beso." crlf crlf)
@@ -151,7 +151,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(mononucleosis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Mononucleosis." crlf
 			"La mononucleosis infecciosa es una infeccion causada, por lo general, por el virus de Epstein-Barr." crlf
 			"El virus se disemina a través de la saliva y es por ello que a veces se la llama enfermedad del beso." crlf crlf)
@@ -167,7 +167,7 @@
 	(test(< ?edad 5))
 =>
 	(assert(enfermedad_kawasaki))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Enfermedad de Kawasaki." crlf
 			"La enfermedad de Kawasaki es una afeccion rara que en general ataca a niños pequeños." crlf
 			"Es un tipo de vasculitis, o inflamacion de los vasos sanguineos, por lo que requiere hospitalizacion" crlf crlf)
@@ -185,7 +185,7 @@
 	(test(< ?edad 5))
 =>
 	(assert(enfermedad_kawasaki))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Enfermedad de Kawasaki." crlf
 			"La enfermedad de Kawasaki es una afeccion rara que en general ataca a niños pequeños." crlf
 			"Es un tipo de vasculitis, o inflamacion de los vasos sanguineos, por lo que requiere hospitalizacion" crlf crlf)
@@ -202,7 +202,7 @@
 	(test(> ?edad 2))
 =>
 	(assert(escarlatina))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Escarlatina." crlf
 			"La escarlatina es causada por bacterias llamadas Streptococcus, en su tipo A." crlf
 			"Produce un sarpullido rojo brillante que afecta la mayor parte del cuerpo." crlf crlf)
@@ -218,7 +218,7 @@
 	(test(< ?edad 3))
 =>
 	(assert(tos_ferina))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Tos Ferina." crlf
 			"La tos ferina es una infeccion de las vias respiratoria altas, causada por la bacteria Bordetella pertussis." crlf
 			"Es una enfermedad grave que causar discapacidad permanente en los bebes e incluso la muerte." crlf crlf)
@@ -233,7 +233,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(gripe))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Gripe." crlf
 			"La gripe es una infeccion de las vias respiratorias, causada por diversos virus de facil contagio" crlf
 			"Suele causar la mayoria de las enfermedades durante los meses mas frios del año." crlf crlf)
@@ -251,7 +251,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(gripe))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Gripe." crlf
 			"La gripe es una infeccion de las vias respiratorias, causada por diversos virus de facil contagio" crlf
 			"Suele causar la mayoria de las enfermedades durante los meses mas frios del año." crlf crlf)
@@ -266,7 +266,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(enterobiasis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Enterobiasis." crlf
 			"La enterobiasis es una infestacion por el Enterobius vermicularis." crlf
 			"Se trata de un nematodo parasito del intestino grueso." crlf crlf)
@@ -281,7 +281,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(enterobiasis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Enterobiasis." crlf
 			"La enterobiasis es una infestacion por el Enterobius vermicularis." crlf
 			"Se trata de un nematodo parasito del intestino grueso." crlf crlf)
@@ -296,7 +296,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(gastroenteritis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Gastroenteritis." crlf
 			"La gastroenteritis es una inflamacion del aparato gastrointestinal debido a una infeccion o a una" crlf
 			"intoxicacion por alimentos. Se caracteriza por la presencia de diarrea, fiebre y vomitos." crlf crlf)
@@ -312,7 +312,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(malaria))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Malaria." crlf
 			"La malaria es una enfermedad potencialmente mortal causada por parasitos" crlf
 			"que se transmiten al ser humano por la picadura de mosquitos." crlf crlf)
@@ -328,7 +328,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(malaria))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Malaria." crlf
 			"La malaria es una enfermedad potencialmente mortal causada por parasitos" crlf
 			"que se transmiten al ser humano por la picadura de mosquitos." crlf crlf)
@@ -345,7 +345,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(neumonia))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Neumonia." crlf
 			"La neumonia es una infeccion en uno o ambos pulmones." crlf
 			"Causa que los alveolos pulmonares se llenen de liquido o pus." crlf crlf)
@@ -362,7 +362,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(neumonia))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Neumonia." crlf
 			"La neumonia es una infeccion en uno o ambos pulmones." crlf
 			"Causa que los alveolos pulmonares se llenen de liquido o pus." crlf crlf)
@@ -378,7 +378,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(resfriado))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Resfriado comun." crlf
 			"El resfriado comun en la mayoria de los casos causa rinorrea o" crlf
 			"secrecion nasal, congestion nasal y estornudo." crlf crlf)
@@ -394,7 +394,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(resfriado))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Resfriado comun." crlf
 			"El resfriado comun en la mayoria de los casos causa rinorrea o" crlf
 			"secrecion nasal, congestion nasal y estornudo." crlf crlf)
@@ -410,7 +410,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(resfriado))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Resfriado comun." crlf
 			"El resfriado comun en la mayoria de los casos causa rinorrea o" crlf
 			"secrecion nasal, congestion nasal y estornudo." crlf crlf)
@@ -427,7 +427,7 @@
 	(test(> ?edad 2))
 =>
 	(assert(micosis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Micosis." crlf
 			"La micosis es una infeccion producida por hongos microscopicos." crlf
 			"Son afecciones que prosperan ante una baja de las defensas del sistema inmune." crlf crlf)
@@ -442,7 +442,7 @@
 	(test(< ?edad 8))
 =>
 	(assert(impetigo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Impetigo." crlf
 			"El impétigo es una infeccion cutanea muy contagiosa que afecta" crlf
 			"principalmente a los bebes y a los niños pequeños." crlf crlf)
@@ -457,7 +457,7 @@
 	(test(< ?edad 8))
 =>
 	(assert(impetigo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Impetigo." crlf
 			"El impétigo es una infeccion cutanea muy contagiosa que afecta" crlf
 			"principalmente a los bebes y a los niños pequeños." crlf crlf)
@@ -472,7 +472,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(ulcera_peptica))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Ulcera Peptica." crlf
 			"La causa mas comun de ulceras es una infeccion del estomago" crlf
 			"por la bacteria llamada Helicobacter pylori." crlf crlf)
@@ -487,7 +487,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(ulcera_peptica))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Ulcera Peptica." crlf
 			"La causa mas comun de ulceras es una infeccion del estomago" crlf
 			"por la bacteria llamada Helicobacter pylori." crlf crlf)
@@ -503,7 +503,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(tuberculosis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Tuberculosis." crlf
 			"La tuberculosis es una infeccion bacteriana causada por un germen llamado" crlf
 			"Mycobacterium tuberculosis. La bacteria suele atacar los pulmones." crlf crlf)
@@ -519,7 +519,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(tuberculosis))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Tuberculosis." crlf
 			"La tuberculosis es una infeccion bacteriana causada por un germen llamado" crlf
 			"Mycobacterium tuberculosis. La bacteria suele atacar los pulmones." crlf crlf)
@@ -535,7 +535,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(hepatitisa))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Hepatitis A." crlf
 			"La hepatitis A es una infección del hígado sumamente contagiosa" crlf
 			"causada por el virus de la hepatitis A.." crlf crlf)
@@ -551,7 +551,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(hepatitisa))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Hepatitis A." crlf
 			"La hepatitis A es una infección del hígado sumamente contagiosa" crlf
 			"causada por el virus de la hepatitis A.." crlf crlf)
@@ -567,7 +567,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(dengue))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Dengue." crlf
 			"El dengue es una enfermedad producida por un virus de la familia de los flavivirus." crlf
 			"Puede producir fiebre alta, dolores de cabeza, dolor en las articulaciones y vomitos" crlf crlf)
@@ -583,7 +583,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(dengue))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Dengue." crlf
 			"El dengue es una enfermedad producida por un virus de la familia de los flavivirus." crlf
 			"Puede producir fiebre alta, dolores de cabeza, dolor en las articulaciones y vomitos" crlf crlf)
@@ -599,7 +599,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(tifoidea))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Tifoidea." crlf
 			"La fiebre tifoidea o fiebre enterica es una enfermedad infecciosa producida" crlf
 			"por Salmonella enterica. El paciente suele presentar fiebre elevada" crlf crlf)
@@ -615,7 +615,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(tifoidea))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Tifoidea." crlf
 			"La fiebre tifoidea o fiebre enterica es una enfermedad infecciosa producida" crlf
 			"por Salmonella enterica. El paciente suele presentar fiebre elevada" crlf crlf)
@@ -630,7 +630,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(hipertiroidismo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Hipertiroidismo." crlf
 			"Es una afeccion en la cual la glandula tiroides" crlf
 			"produce demasiada hormona tiroidea." crlf crlf)
@@ -646,7 +646,7 @@
 	(test(< ?edad 14))
 =>
 	(assert(hipotiroidismo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Enfermedad diagnosticada: Hipotiroidismo." crlf
 			"El hipotiroidismo es un trastorno en el cual la glandula tiroides " crlf
 			"no produce la cantidad suficiente de ciertas hormonas cruciales." crlf crlf)
@@ -662,7 +662,7 @@
 =>
 	(assert(aciclovir))
 	(assert(hidratacion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Aciclovir e hidratacion." crlf)
 	(close)
 	(printout t "Tratamiento: Aciclovir e hidratacion." crlf)
@@ -673,7 +673,7 @@
 	(varicela)
 =>
 	(assert(hidratacion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Hidratacion." crlf)
 	(close)
 	(printout t "Tratamiento: Hidratacion." crlf)
@@ -684,7 +684,7 @@
 =>
 	(assert(ibuprofeno))
 	(assert(reposo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Ibuprofeno y reposo." crlf)
 	(close)
 	(printout t "Tratamiento: Ibuprofeno y reposo." crlf)
@@ -697,7 +697,7 @@
 	(assert(paracetamol))
 	(assert(reposo))
 	(assert(ambiente_humedo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Paracetamol, reposo y humedecer ambiente." crlf)
 	(close)
 	(printout t "Tratamiento: Paracetamol, reposo y humedecer ambiente." crlf)
@@ -709,7 +709,7 @@
 =>
 	(assert(reposo))
 	(assert(ambiente_humedo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Reposo y humedecer ambiente." crlf)
 	(close)
 	(printout t "Tratamiento: Reposo y humedecer ambiente." crlf)
@@ -720,7 +720,7 @@
 =>
 	(assert(penicilina))
 	(assert(hidratacion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Penicilina e hidratacion." crlf)
 	(close)
 	(printout t "Tratamiento: Penicilina e hidratacion." crlf)
@@ -732,7 +732,7 @@
 =>
 	(assert(paracetamol))
 	(assert(hospitalizacion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Paracetamol y hospitalizacion inmediata." crlf)
 	(close)
 	(printout t "Tratamiento: Paracetamol y hospitalizacion inmediata." crlf)
@@ -743,7 +743,7 @@
 	(mononucleosis)
 =>
 	(assert(hospitalizacion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Hospitalizacion inmediata." crlf)
 	(close)
 	(printout t "Tratamiento: Hospitalización inmediata." crlf)
@@ -755,7 +755,7 @@
 =>
 	(assert(hospitalizacion))
 	(assert(acido_acetilsalicilico))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Hospitalizacion inmediata y acido acetilsalicilico." crlf)
 	(close)
 	(printout t "Tratamiento: Hospitalización inmediata y acido acetilsalicilico." crlf)
@@ -766,7 +766,7 @@
 	(enfermedad_kawasaki)
 =>
 	(assert(hospitalizacion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Hospitalizacion inmediata." crlf)
 	(close)
 	(printout t "Tratamiento: Hospitalización inmediata." crlf)
@@ -778,7 +778,7 @@
 =>
 	(assert(amoxicilina))
 	(assert(reposo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Amoxicilina y reposo." crlf)
 	(close)
 	(printout t "Tratamiento: Amoxicilina y reposo." crlf)
@@ -789,7 +789,7 @@
 	(escarlatina)
 =>
 	(assert(reposo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Reposo." crlf)
 	(close)
 	(printout t "Tratamiento: Reposo." crlf)
@@ -801,7 +801,7 @@
 	(assert(claritromicina))
 	(assert(alimentacion_adecuada))
 	(assert(reposo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Claritromicina, alimentacion adecuada y reposo." crlf)
 	(close)
 	(printout t "Tratamiento: Claritromicina, alimentacion adecuada y reposo." crlf)
@@ -814,7 +814,7 @@
 	(assert(paracetamol))
 	(assert(hidratacion))
 	(assert(reposo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Paracetamol, hidratacion y reposo." crlf)
 	(close)
 	(printout t "Tratamiento: Paracetamol, hidratacion y reposo." crlf)
@@ -826,7 +826,7 @@
 =>
 	(assert(hidratacion))
 	(assert(reposo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Hidratacion y reposo." crlf)
 	(close)
 	(printout t "Tratamiento: Hidratacion y reposo." crlf)
@@ -838,7 +838,7 @@
 =>
 	(assert(hidratacion))
 	(assert(mebendazol))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Hidratacion y mebendazol." crlf)
 	(close)
 	(printout t "Tratamiento: Hidratacion y mebendazol." crlf)
@@ -849,7 +849,7 @@
 	(enterobiasis)
 =>
 	(assert(hidratacion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Hidratacion." crlf)
 	(close)
 	(printout t "Tratamiento: Hidratacion." crlf)
@@ -861,7 +861,7 @@
 =>
 	(assert(poleramida))
 	(assert(hidratacion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Hidratacion y poleramida." crlf)
 	(close)
 	(printout t "Tratamiento: Hidratacion y poleramida." crlf)
@@ -872,7 +872,7 @@
 	(gastroenteritis)
 =>
 	(assert(hidratacion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Hidratacion." crlf)
 	(close)
 	(printout t "Tratamiento: Hidratacion." crlf)
@@ -885,7 +885,7 @@
 	(assert(hidratacion))
 	(assert(artesimina))
 	(assert(cloroquina))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Cloroquina, artesimina e hidratacion." crlf)
 	(close)
 	(printout t "Tratamiento: Cloroquina, artesimina e hidratacion." crlf)
@@ -897,7 +897,7 @@
 =>
 	(assert(hidratacion))
 	(assert(artesimina))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Artesimina e hidratacion." crlf)
 	(close)
 	(printout t "Tratamiento: Artesimina e hidratacion." crlf)
@@ -909,7 +909,7 @@
 	(assert(hidratacion))
 	(assert(penicilina))
 	(assert(reposo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Penicilina, reposo e hidratacion." crlf)
 	(close)
 	(printout t "Tratamiento: Penicilina, reposo e hidratacion." crlf)
@@ -921,7 +921,7 @@
 	(assert(hidratacion))
 	(assert(reposo))
 	(assert(dieta_blanda))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: No hacer uso de antibioticos. Reposo, hidratacion y dieta blanda." crlf)
 	(close)
 	(printout t "Tratamiento: No hacer uso de antibioticos. Reposo, hidratación y dieta blanda." crlf)
@@ -939,7 +939,7 @@
 =>
 	(assert(tisuderma))
 	(assert(humedecer_zona))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Tisuderma y humedecer zona afectada." crlf)
 	(close)
 	(printout t "Tratamiento: Tisuderma y humedecer zona afectada." crlf)
@@ -951,7 +951,7 @@
 	(assert(esomeprazol))
 	(assert(dieta_blanda))
 	(assert(reposo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Esomeprazol, dieta blanda y reposo." crlf)
 	(close)
 	(printout t "Tratamiento: Esomeprazol, dieta blanda y reposo." crlf)
@@ -962,7 +962,7 @@
 =>
 	(assert(isoniacida))
 	(assert(etambutol))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Isoniacida y Etambutol." crlf)
 	(close)
 	(printout t "Tratamiento: Isoniacida y Etambutol." crlf)
@@ -973,7 +973,7 @@
 =>
 	(assert(reposo))
 	(assert(hidratacion))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Reposo e hidratacion." crlf)
 	(close)
 	(printout t "Tratamiento: Reposo e hidratacion." crlf)
@@ -985,7 +985,7 @@
 =>
 	(assert(reposo))
 	(assert(paracetamol))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Reposo y paracetamol en caso de fiebre alta." crlf)
 	(close)
 	(printout t "Tratamiento: Reposo y Paracetamol en caso de fiebre alta." crlf)
@@ -997,7 +997,7 @@
 =>
 	(assert(tylenol))
 	(assert(reposo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Tylenol y reposo." crlf)
 	(close)
 	(printout t "Tratamiento: Tylenol y reposo." crlf)
@@ -1008,7 +1008,7 @@
 =>
 	(assert(ciprofloxacino))
 	(assert(reposo))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Ciprofloxacino y Ceftriaxona." crlf)
 	(close)
 	(printout t "Tratamiento: Ciprofloxacino y Ceftriaxona." crlf)
@@ -1019,7 +1019,7 @@
 =>
 	(assert(propiltiouracilo))
 	(assert(metimazol))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Propiltiouracilo y Metimazol." crlf)
 	(close)
 	(printout t "Tratamiento: Propiltiouracilo y Metimazol." crlf)
@@ -1030,7 +1030,7 @@
 =>
 	(assert(levothroid))
 	(assert(synthroid))
-	(open "D:\\PedInf\\Interfaz\\diagnostico.txt" mydata "a")
+	(open "diagnostico.txt" mydata "a")
 	(printout mydata "Tratamiento: Levothroid y Synthroid." crlf)
 	(close)
 	(printout t "Tratamiento: Levothroid y Synthroid." crlf)

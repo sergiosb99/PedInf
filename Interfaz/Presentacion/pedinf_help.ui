@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>479</width>
-    <height>870</height>
+    <height>939</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,8 +20,8 @@
   <widget class="QLabel" name="lbl_thanks">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>770</y>
+     <x>-4</x>
+     <y>840</y>
      <width>461</width>
      <height>31</height>
     </rect>
@@ -33,8 +33,8 @@
   <widget class="QLabel" name="lbl_author">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>800</y>
+     <x>-4</x>
+     <y>870</y>
      <width>461</width>
      <height>31</height>
     </rect>
@@ -449,14 +449,27 @@
   <widget class="QLabel" name="lbl_mail">
    <property name="geometry">
     <rect>
-     <x>14</x>
-     <y>830</y>
+     <x>0</x>
+     <y>900</y>
      <width>451</width>
      <height>20</height>
     </rect>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Contacto:&lt;/span&gt; Sergio.Sevilla@alu.ulcm.es&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>760</y>
+     <width>451</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Una vez realizado el diágnostico, el mismo será creado en el directorio &lt;/p&gt;&lt;p&gt;desde el cual haya ejecutado la aplicación.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>
