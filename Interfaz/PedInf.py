@@ -34,14 +34,8 @@ class pedinf(QMainWindow):
 
         campos = self.comprobar_campos() # Comprobar si los campos son correctos.
 
-        if campos == False: # Si no son correctos, mostramos un error y vaciamos los campos.
-            msg = QMessageBox()
-            msg.setIcon(QMessageBox.Critical)
-            msg.setText("Error en los campos")
-            msg.setInformativeText("Algún campo obligatorio está vacío o su contenido no es correcto. Inténtelo de nuevo.")
-            msg.setWindowTitle("PedInf: Error")
-            msg.exec_()
-            self.limpiar_campos()
+        # Si no son correctos, mostramos un error y vaciamos los campos.
+        if campos == False: self.limpiar_campos()
         else: # Si son correctos, se inicia el proceso de diágnostico.
             ############# PATOLOGÍAS ###############
             patologia_cb = "ninguna"
@@ -150,7 +144,7 @@ class pedinf(QMainWindow):
         
             print('Diagnostico')
             env.run()
-            self.lbl_alerta.setText("Diagnóstico creado. Consúltalo en el archivo diagnóstico.txt")
+            self.lbl_alerta.setText("Diagnóstico creado. Consúltalo en: " + os.getcwd() + "\diagnostico.txt")
         
     def limpiar_campos(self):
         self.le_nombre.setText("")
@@ -170,7 +164,36 @@ class pedinf(QMainWindow):
 
     def comprobar_campos(self):
         campos = True
-        if not self.le_nombre.text(): campos = False
+
+        if not self.le_nombre.text(): 
+            campos = False
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Critical)
+            msg.setText("Error")
+            msg.setInformativeText("No has introducido el nombre del paciente")
+            msg.setWindowTitle("PedInf: Error")
+            msg.exec_()
+
+        # Definimos una lista con todos los checkbox, para iterarla posteriormente.
+        checkbox = [self.cb_alergia, self.cb_asma, self.cb_corazon, self.cb_diabetes, self.cb_hepaticos, self.cb_g1, self.cb_g2, self.cb_g3, self.cb_g4, self.cb_g5,
+                    self.cb_g6, self.cb_g7, self.cb_g8, self.cb_g9, self.cb_g10, self.cb_g11, self.cb_g12, self.cb_g13, self.cb_g14, self.cb_g15, self.cb_g16, self.cb_g17,
+                    self.cb_g18, self.cb_g19, self.cb_g20, self.cb_g21, self.cb_g22, self.cb_g23, self.cb_g24, self.cb_g25, self.cb_g26, self.cb_g27, self.cb_g28, self.cb_g29, 
+                    self.cb_g30, self.cb_l1, self.cb_l2, self.cb_l3, self.cb_l4, self.cb_l5, self.cb_l6, self.cb_l7, self.cb_l8, self.cb_l9, self.cb_l10, self.cb_l11, self.cb_l12,           
+                    self.cb_l13, self.cb_l14, self.cb_l15, self.cb_l16, self.cb_l17, self.cb_l18, self.cb_l19, self.cb_l20, self.cb_l21, self.cb_l22, self.cb_l23, self.cb_l24,
+                    self.cb_l25, self.cb_l26, self.cb_l27, self.cb_l28, self.cb_l29, self.cb_l30]
+
+        contador = 0
+        for i in checkbox:
+            if i.isChecked(): contador = contador + 1
+
+        if contador == 0:
+            campos = False
+            msg = QMessageBox()
+            msg.setIcon(QMessageBox.Critical)
+            msg.setText("Error")
+            msg.setInformativeText("No has introducido ningún síntoma")
+            msg.setWindowTitle("PedInf: Error")
+            msg.exec_()
 
         return campos
 
