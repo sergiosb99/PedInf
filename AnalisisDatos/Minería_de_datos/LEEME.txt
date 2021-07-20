@@ -2,6 +2,9 @@ En esta carpeta se encuentra el material usado para llevar
 a cabo la fase de minería de datos del proceso KDD.
 
 ARCHIVOS:
+ArbolDecisión.png ----------------------> Se adjunta una imagen del árbol de decisión 
+					  conseguido tras llevar a cabo el proceso de 
+					  análisis de datos, para poder visualizarlo mejor.
 Minería_de_Datos_Casos_Clínicos.ipynb --> Contiene el código desarrollado para las tareas
 					  de minería de datos en la vertiente del diagnóstico
 					  de enfermedades infecciosas pediátricas.
