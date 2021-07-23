@@ -12,3 +12,5 @@ En el tercer y último sprint del proyecto, se lleva a cabo el desarrollo de una
 * Fase de despliegue.
 
 Por último, tras el desarrollo de la interfaz, se ha llevado a cabo una evaluación del sistema. Para ello, el experto ha desarrollado diferentes casos de prueba, para ver si el diagnóstico devuelto por el sistema inteligente coincide con el real. Se han realizado dos casos de prueba para el sistema experto en CLIPS, otros dos casos de prueba para comprobar con que enfermedad clasificaria el árbol de decisión dichos síntomas, y por último, otros dos casos de prueba para comprobar el buen hacer del sistema en su completitud, introduciendo los datos desde la interfaz, comprobando la correcta generación del diagnóstico.
+
+Los únicos requerimentos para poner en marcha la interfaz es contar con las librerías [Clipspy](https://pypi.org/project/clipspy/) y [PyQt5](https://pypi.org/project/PyQt5/) instaladas.
