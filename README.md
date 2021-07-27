@@ -5,6 +5,7 @@ PedInf es un sistema inteligente de ayuda a la decisión para el diagnóstico y 
 ![Logo PedInf](https://1.bp.blogspot.com/-K5Qy_2IKebU/YKgnnIuW8pI/AAAAAAAABSM/oDRMyAB9iK4wmBoWJJJp72ey-UyP_qMEQCLcBGAsYHQ/s501/Captura.PNG)
 
 Te recomiendo que le eches un ojo a nuestra [wiki](https://github.com/sergiosb99/PedInf/wiki), en la cual podrás encontrar información sobre el proyecto.
+Además, puede consultar las diferentes ramas de este proyecto, para visualizar cual ha sido el reparto de trabajo entre los diferentes sprints.
 
 ### Jerarquía de archivos
 
